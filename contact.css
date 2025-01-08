@@ -1,0 +1,96 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(255, 129, 65);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100dvh;
+  width: 100dvw;
+  overflow-y: hidden;
+}
+
+div {
+  border: 1.5px solid black;
+}
+
+.top {
+  top: 0%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cr {
+  bottom: 0%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  height: max-content;
+  height: calc(100dvh - 10rem);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  flex-direction: column;
+  width: 12rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+}
+
+.main > table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+  text-justify: center;
+  padding: 1rem;
+}
+
+input,
+button {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 4rem 1rem;
+}
+
+.links > a {
+  font-size: 1.25rem;
+}
