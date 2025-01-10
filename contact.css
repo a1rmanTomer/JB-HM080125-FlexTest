@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   height: 100dvh;
   width: 100dvw;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 div {
@@ -18,7 +18,8 @@ div {
 
 .top {
   top: 0%;
-  height: 6rem;
+  height: 10dvh;
+  width: 100dvw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,8 +27,8 @@ div {
 
 .cr {
   bottom: 0%;
-  width: 100%;
-  height: auto;
+  width: 100dvw;
+  height: 8dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,8 +36,7 @@ div {
 
 .hero {
   display: flex;
-  height: max-content;
-  height: calc(100dvh - 10rem);
+  height: 82dvh;
 }
 
 .links {
